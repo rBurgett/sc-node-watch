@@ -1,0 +1,30 @@
+{
+  "name": "sc-node-watch",
+  "version": "0.1.0",
+  "description": "sc-node-watch",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist",
+    "dev-start": "node $NODE_DEBUG_OPTION dist",
+    "build": "babel src --out-dir dist",
+    "watch": "babel src --watch --out-dir dist"
+  },
+  "repository": "git+https://github.com/rBurgett/sc-node-watch.git",
+  "author": "Ryan Burgett <ryan@burgettweb.net>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/rBurgett/sc-node-watch/issues"
+  },
+  "homepage": "https://github.com/rBurgett/sc-node-watch#readme",
+  "private": true,
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.16.0",
+    "eslint-plugin-react": "^7.6.0"
+  },
+  "dependencies": {}
+}
