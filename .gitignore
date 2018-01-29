@@ -59,3 +59,7 @@ typings/
 
 .idea
 /dist
+addresses.json
+coin-data.json
+/data
+meta.json
